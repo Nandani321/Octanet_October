@@ -1,0 +1,168 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.contact {
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: left;
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+.contact {
+    background-color: #f4f4f4;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-image {
+    flex: 1;
+    text-align: center;
+}
+
+.contact-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-form {
+    flex: 2;
+    padding: 0 20px;
+    text-align: left;
+}
+.contact-form, h2{
+    text-align: center;
+}
+.contact label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f24e4e;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact button:hover {
+    background-color: #ff6666;
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    background-image: url('https://static2.tripoto.com/media/filter/tst/img/7372/TripDocument/1502262156_road_trip.jpg'); /* Add your hero image URL */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f24e4e;
+    color: #fff7f7;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ff6666;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.feature {
+    text-align: center;
+    max-width: 300px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
